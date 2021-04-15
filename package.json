@@ -1,0 +1,36 @@
+{
+  "name": "@atb-as/elm-format",
+  "version": "0.8.3-letin1",
+  "description": "Install elm-format",
+  "preferGlobal": true,
+  "main": "index.js",
+  "scripts": {
+    "install": "binwrap-install",
+    "prepare": "binwrap-prepare",
+    "prepublish": "npm test",
+    "test": "binwrap-test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjenssen/elm-format.git"
+  },
+  "keywords": [
+    "elm-format"
+  ],
+  "author": "mjenssen",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/mjenssen/elm-format/issues"
+  },
+  "files": [
+    "index.js",
+    "bin"
+  ],
+  "homepage": "https://github.com/mjenssen/elm-format",
+  "bin": {
+    "elm-format": "bin/elm-format.js"
+  },
+  "dependencies": {
+    "binwrap": "^0.2.3"
+  }
+}

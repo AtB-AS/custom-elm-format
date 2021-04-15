@@ -1,8 +1,7 @@
 var binwrap = require("binwrap");
 var path = require("path");
 
-var packageInfo = require(path.join(__dirname, "package.json"));
-var binVersion = packageInfo.version;
+var binVersion = "0.8.3-letin1";
 
 var root =
   "https://github.com/mjenssen/elm-format/releases/download/" +

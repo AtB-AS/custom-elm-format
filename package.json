@@ -1,7 +1,7 @@
 {
   "name": "@atb-as/elm-format",
   "private": false,
-  "version": "0.8.3-letin1",
+  "version": "1.0.0",
   "description": "Install elm-format",
   "preferGlobal": true,
   "main": "index.js",
@@ -29,7 +29,7 @@
   ],
   "homepage": "https://github.com/mjenssen/elm-format",
   "bin": {
-    "elm-format": "bin/elm-format.js"
+    "elm-format": "bin/elm-format"
   },
   "dependencies": {
     "binwrap": "^0.2.3"

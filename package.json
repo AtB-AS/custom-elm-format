@@ -1,5 +1,6 @@
 {
   "name": "@atb-as/elm-format",
+  "private": false,
   "version": "0.8.3-letin1",
   "description": "Install elm-format",
   "preferGlobal": true,

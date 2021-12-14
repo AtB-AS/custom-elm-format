@@ -1,3 +1,4 @@
 /node_modules/
 /bin/
 /unpacked_bin/
+.DS_Store

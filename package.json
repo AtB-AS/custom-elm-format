@@ -1,7 +1,7 @@
 {
   "name": "@atb-as/elm-format",
   "private": false,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Install elm-format",
   "preferGlobal": true,
   "main": "index.js",
